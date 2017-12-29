@@ -22,8 +22,9 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <p class="w3-text-grey">Grad Student, Virginia Tech</p>
   </div>
   <div class="w3-bar-block">
-    <a href="#workexperience" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>Work Experience</a> 
-    <a href="#projects" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>Projects</a>     
+    <a href="#workexperience" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-user fa-fw w3-margin-right"></i>Work Experience</a> 
+    <a href="#projects" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-graduation-cap fa-fw w3-margin-right"></i>Projects</a>    
+	<a href="#publish" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-file fa-fw w3-margin-right"></i>Publications</a>   	
 	<a href="#reading" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-book fa-fw w3-margin-right"></i>Currently Reading</a>
 	<a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>Contact</a>
   </div>
@@ -41,18 +42,20 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
 <!-- Introduction -->
   <div class="w3-container" id="introduction" >    
-    <p>I am a graduate student in the Computer Engineering Department at the Virginia Tech, Blacksburg.<br>Currently, I am working with Prof Sujith on analysis of memory formation using neural networks. Under his guidance I am exploring the effects of REM sleep in memory formation. </p>
+    <p>I am a graduate student in the Computer Engineering Department at the Virginia Tech, Blacksburg.<br>Currently, I am working with Prof Sujith on analysis of memory formation using neural networks. Under his guidance I am exploring the effects of REM sleep in memory formation.  </p>
   </div>
   
    <!-- Work Ex. -->
   <div class="w3-container" id="workexperience" >
-    <h1 class="w3-xxxlarge w3-text-red"><b>Work Experience.</b></h1>    
+    <h1 class="w3-xxlarge w3-text-red"><b>Work Experience.</b></h1>    
 		<div class="w3-container" style="margin:0 -30px">
 			<div class="w3-container w3-hover-shadow w3-round-large w3-card-5">
 				<a href="notFound.html">
 					<h2 class="w3-xlarge w3-text-dark-grey">Neural Dyanamics Lab, Virginia Tech<span style="float: right; font-size: 12px;">Novemeber 2017 - Now</span></h2>
 				</a>
-				<p class="description">ML Stuff </p>
+				<p class="w3-opacity">Graduate Student Researcher</p>
+				<p class="description">I am working on developing a neural network for modelling the brain activity. </p>
+				<p>I am also working on interfacing a BMI(Brain Machine Interface) to study the effects of sleep on memory formation.</p>
 			</div>
 		</div>
 		
@@ -100,7 +103,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
   
   <!--Projects -->
   <div class="w3-container" id="projects" >
-    <h1 class="w3-xxxlarge w3-text-red"><b>Projects</b></h1>    
+    <h1 class="w3-xxlarge w3-text-red"><b>Projects</b></h1>    
     <div class="w3-container" style="margin:0 -30px">
 		<div class="w3-container w3-hover-shadow w3-round-large w3-card-5">
 			<a href="https://github.com/abhinuvpitale/ASL-Gesture-Recognition">
@@ -159,10 +162,21 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 		</div>
 	</div>
   </div>
-
+ <!-- Publications -->
+  <div class="w3-container" id="publish" >
+  <h1 class="w3-xxlarge w3-text-red"><b>Publications</b></h1>
+    <div class="w3-container" style="margin:0 -30px">
+		<div class="w3-container w3-hover-shadow w3-round-large w3-card-5">
+			<a href="http://ieeexplore.ieee.org/document/7857461/">
+				<h2 class="w3-xlarge w3-text-dark-grey">Signal conditioning algorithms on accelerometers in an Inertial Navigation System (INS) <span style="float: right; font-size: 12px;"></span></h2>	
+				<p>Abhinuv Pitale, Abhishek Ajey Bendre, Rushikesh Agashe, Parul M Jadhav</p>				
+			</a>	
+		</div>
+	</div>
+  </div>
   <!-- Currently Reading -->
-  <div class="w3-container" id="contact" >
-    <h1 class="w3-xxxlarge w3-text-red"><b>Currently Reading</b></h1>
+  <div class="w3-container" id="reading" >
+    <h1 class="w3-xxlarge w3-text-red"><b>Currently Reading</b></h1>
     I am reading <a href = 'https://www.goodreads.com/book/show/29947651-endurance'>Endurance: A Year in Space, A Lifetime of Discovery </a> by astronaut Scott Kelly
 	
 	<br><br>
@@ -171,7 +185,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
  
   <!-- Contact -->
   <div class="w3-container" id="contact" >
-    <h1 class="w3-xxxlarge w3-text-red"><b>Contact.</b></h1>
+    <h1 class="w3-xxlarge w3-text-red"><b>Contact.</b></h1>
     <form action="/action_page.php" target="_blank">
       <div class="w3-section">
         <label>Name</label>
