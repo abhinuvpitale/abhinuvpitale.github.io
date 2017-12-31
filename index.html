@@ -22,7 +22,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <p class="w3-text-grey">Grad Student, Virginia Tech</p>
   </div>
   <div class="w3-bar-block">
-    <a href="#workexperience" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-user fa-fw w3-margin-right"></i>Work Experience</a> 
+    <a href="#aboutme" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text"><i class="fa fa-user fa-fw w3-margin-right"></i>About Me</a> 
+	<a href="#workexperience" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text"><i class="fa fa-briefcase fa-fw w3-margin-right"></i>Work Experience</a> 
     <a href="#projects" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-graduation-cap fa-fw w3-margin-right"></i>Projects</a>    
 	<a href="#publish" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-file fa-fw w3-margin-right"></i>Publications</a>   	
 	<a href="#reading" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-book fa-fw w3-margin-right"></i>Currently Reading</a>
@@ -31,6 +32,10 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
   <div class="w3-panel w3-large">
   <a href = "https://github.com/abhinuvpitale"><i class="fa fa-github w3-hover-opacity"></i></a>	
   <a href = "https://www.linkedin.com/in/abhinuvpitale/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>  
+  <a href = "mailto:abhinuv@vt.edu"><i class="fa fa-envelope w3-hover-opacity"></i></a>   
+  </div>
+  <div class = 'w3-panel w3-small'>
+  <a href='Resume.pdf' target="_blank">Download Resume</a>
   </div>
 </nav>
 
@@ -41,8 +46,14 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 <div class="w3-main" style="margin-left:340px;margin-right:40px">
 
 <!-- Introduction -->
-  <div class="w3-container" id="introduction" >    
-    <p>I am a graduate student in the Computer Engineering Department at the Virginia Tech, Blacksburg.<br>Currently, I am working with Prof Sujith on analysis of memory formation using neural networks. Under his guidance I am exploring the effects of REM sleep in memory formation.  </p>
+  <div class="w3-container" id="aboutme" >    
+  <h1 class="w3-xxlarge w3-text-red"><b>About me</b></h1>    	
+    <p>I am a graduate student in the Computer Engineering Department at the Virginia Tech, Blacksburg.
+	<br><br>
+	Currently, I am working with Prof Sujith on analysis of memory formation using neural networks. Under his guidance I am exploring the effects of REM sleep in memory formation. I am interested in the field of Machine Learning, Data Science and Robotics. 
+	<br><br>
+	Prior to that I was working at Mercedes Benz R/& D, India on the Diagnostics software for Daimler Trucks.</p>
+	
   </div>
   
    <!-- Work Ex. -->
@@ -270,18 +281,30 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <h1 class="w3-xxlarge w3-text-red"><b>Contact.</b></h1>
     <form action="https://formspree.io/abhinuv@vt.edu" target="_blank" method = "POST">
       <div class="w3-section">
-        <label>Name</label>
-        <input class="w3-input w3-border" type="text" name="Name" required>
+		<div class="w3-half">
+			<label>Name</label>
+			<input class="w3-input w3-border" type="text" name="Name">
+		</div>
+		<div class="w3-half">
+			<label>Email</label>
+			<input class="w3-input w3-border" type="text" name="Email" required>
+		</div>
       </div>
       <div class="w3-section">
-        <label>Email</label>
-        <input class="w3-input w3-border" type="text" name="Email" required>
-      </div>
-      <div class="w3-section">
-        <label>Message</label>
-        <input class="w3-input w3-border" type="text" name="Message" required>
-      </div>
-      <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Send Message</button>
+		<div class="w3-threequarter">
+			<label>Message</label>
+			<input class="w3-input w3-border" type="text" name="Message" required>
+		</div>
+		<div class="w3-quarter">
+			<div class="w3-half">
+			.
+			</div>
+			<div class="w3-half">
+			<label>.</label>	
+			<button type="submit" class="w3-circle w3-block w3-padding-large w3-red"><i class='fa fa-send'></i></button>
+			</div>
+		</div>		
+      </div>      
     </form>  
   </div>
 
