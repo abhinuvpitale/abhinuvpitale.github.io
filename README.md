@@ -1,4 +1,5 @@
 # abhinuvpitale.github.io
-Abhinuv Pitale's Github Page
+Portfolio like page for my projects, work - ex and all other such things.
+https:\\abhinuvpitale.github.io
 
-Refernce templlate used from http://html5-templates.com/
+special thanks to [Sourabh](https://sourabh.io/) for all the web help !
