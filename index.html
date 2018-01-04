@@ -22,9 +22,9 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     </a>
     <img src="images/profile.JPG" style="width:95%;" class="w3-round"><br><br>
     <h4><b>Abhinuv Nitin Pitale</b></h4>		
-	<div class = 'w3-medium position-info'>Techie<sup>[1]</sup> & Trekkie<sup>[2]</sup><br>
+	<div class = 'w3-medium position-info' id = 'Techie'><a href = './images/techie.html'>Techie<sup>[1]</sup></a> & <a href = './images/trekkie.html'>Trekkie<sup>[2]</sup></a><br>
 	Grad Student, Virginia Tech</div>
-	<br>
+	<br>	
   </div>
   <div class="w3-bar-block">
     <a href="#aboutme" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text"><i class="fa fa-user fa-fw w3-margin-right"></i>About Me</a> 
@@ -337,6 +337,39 @@ function w3_close() {
     document.getElementById("mySidebar").style.display = "none";
     document.getElementById("myOverlay").style.display = "none";
 }
+</script>
+
+
+<script>
+  // Get the modal
+var modal = document.getElementById('myModal');
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var Techie = document.getElementById('Techie');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = '<img src="'techie.jpg'" />';
+    captionText.innerHTML = this.alt;
+}
+
+
+
+// Get the <span> element that closes the modal
+
+var span = document.getElementsByClassName("close")[0];
+
+
+
+// When the user clicks on <span> (x), close the modal
+
+span.onclick = function() { 
+
+  modal.style.display = "none";
+
+}
+
 </script>
 
 </body>
