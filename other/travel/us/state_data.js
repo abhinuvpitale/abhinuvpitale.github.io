@@ -39,9 +39,14 @@ var states = {
   	visited: "2019-02-07",
     description: "Visited Surabhi @ Austin 2019"
   },
-	  VA: {
+	VA: {
 		name: "Virginia",
 		lived: "2017-08-15",
     description: "My Hokie Home 2017"
+	},
+	WV: {
+		name: "West Virginia",
+		lived: "2019-04-22",
+		description: "New River Gorge Bridge"
 	}
-}
+};
