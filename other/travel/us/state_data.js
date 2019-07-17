@@ -7,12 +7,12 @@ var states = {
   CA: {
     name: "California",
     lived: "2018-08-27",
-    description: "Internship at KittyHawk "
+    description: "Internship at KittyHawk, Summer 2019 "
   },
     DC2: {
     name: "Washington, District of Columbia",
     lived: "2018-05-15",
-    description: "Internship at DeepSig"
+    description: "Internship at DeepSig, Summer 2018"
   },
   	MD: {
 		name: "Maryland",
@@ -42,7 +42,7 @@ var states = {
 	VA: {
 		name: "Virginia",
 		lived: "2017-08-15",
-    description: "My Hokie Home 2017"
+    description: "My Hokie Home 2017-2019"
 	},
 	WV: {
 		name: "West Virginia",
