@@ -44,9 +44,14 @@ var states = {
 		lived: "2017-08-15",
     description: "My Hokie Home 2017-2019"
 	},
+        WA: {
+                name: "Washington",
+                visited: "2019-08-27",
+     description: "Visiting Shruti's home in Seattle"
+        },
 	WV: {
 		name: "West Virginia",
-		lived: "2019-04-22",
+		visited: "2019-04-22",
 		description: "New River Gorge Bridge"
 	}
 };
