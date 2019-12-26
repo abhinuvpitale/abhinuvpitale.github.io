@@ -7,7 +7,7 @@ var states = {
   CA: {
     name: "California",
     lived: "2018-08-27",
-    description: "Internship at KittyHawk, Summer 2019 "
+    description: "Internship at KittyHawk, Summer 2019 \n Current home since June 2019"
   },
     DC2: {
     name: "Washington, District of Columbia",
@@ -24,10 +24,20 @@ var states = {
 		visited: "2018-03-09",
 		description: "Visited Agashe @ NCSU and Pooja @ Cary in 2018"
 	},
+	NJ: {
+		name: "New Jersey",
+		visited: "2019-06-11",
+		description: "Family trip 2019!"
+	},
+	NY: {
+		name: "New York",
+		visited: "2019-06-12"
+		description: "New York trip with family 2019!"
+	},
   	PA: {
 		name: "Pennsylvania",
 		visited: "2018-07-15",
-    description: "Visited Sramana @ Philly in 2018 "
+    description: "Visited Sramana @ Philly in 2018 \n Family trip 2019!"
 	},
   	TN: {
 		name: "Tennessee",
