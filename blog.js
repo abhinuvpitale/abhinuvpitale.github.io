@@ -1,4 +1,4 @@
-const blogList = [
+const blogList = [   
     {
         title: "Totally Do-able things to get an internship/job",
         date: "March 2019",
@@ -7,6 +7,14 @@ const blogList = [
         tags:"career",
         first: 1
     },
+    {
+        title: "The Silicon Valley Internship",
+        date: "August 2019",
+        description: "My experience of working at a Bay area startup making flying taxis!",
+        link:"https://medium.com/@abhinuv/the-silicon-valley-startup-internship-290f6ad4170a",
+        tags:"career",
+        first: 1
+    }, 
     {
         title: "Adafruit Blog Feature",
         date: "Feb 2019",
