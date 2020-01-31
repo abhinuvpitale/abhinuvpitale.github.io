@@ -31,7 +31,7 @@ var states = {
 	},
 	NY: {
 		name: "New York",
-		visited: "2019-06-12"
+		visited: "2019-06-12",
 		description: "New York trip with family 2019!"
 	},
   	PA: {
