@@ -1,5 +1,3 @@
-
-
 var arrayLength = projectList.length;
 var index_project = "";
 for (var i = 0; i < arrayLength; i++) {
