@@ -8,8 +8,7 @@ for (var i = 0; i < arrayLength; i++) {
             <div class="w3-row">\
                 <div class="w3-quarter">\
                     <div class="w3-card-4 w3-round-medium" style="width: 70%;">\
-                        <img style="width:100%" alt="Text Here" src="./images' +
-            ' <a href="./images/'+currProject.img+'">\
+                        <img style="width:100%" alt="Text Here" src=' +currProject.img+'>\
 \
             </div>\
         </div>\
