@@ -34,11 +34,16 @@ var states = {
 		visited: "2019-06-12",
 		description: "New York trip with family 2019!"
 	},
-  	PA: {
-		name: "Pennsylvania",
-		visited: "2018-07-15",
-    description: "Visited Sramana @ Philly in 2018 \n Family trip 2019!"
-	},
+	PA: {
+	  name: "Pennsylvania",
+	  visited: "2018-07-15",
+ 	  description: "Visited Sramana @ Philly in 2018 \n Family trip 2019!"
+  	},
+  	OR: {
+	  name: "Oregon",
+	  visited: "2020-07-01",
+      description: "Crater Lake while driving to Seattle"
+    },
   	TN: {
 		name: "Tennessee",
 		visited: "2018-08-20",
