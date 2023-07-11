@@ -1,7 +1,16 @@
 const projectList = [   
     {
+        title: "Google (Fitbit)",
+        date: "Feb 2022 - Preset,
+        position: "Research Scientist",
+        description: "Consumner Health Research - Sensing Systems",
+        link: "https://developers.google.com/community/accelerators/mentors/profile/profile-abhinuv-pitale"
+        tags: "embedded, research, sensing",
+        first: 1
+    },
+    {
         title: "Cora/ Wisk Aero",
-        date: "Jul 2019 - Present",
+        date: "Jul 2019 - Feb 2022",
         position: "Software Engineer - Embedded Systems",
         description: "Sensors, flight systems and writing embedded code that flies!",
         link:"wisk.aero",
