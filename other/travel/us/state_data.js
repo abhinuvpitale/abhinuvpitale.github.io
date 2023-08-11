@@ -24,10 +24,20 @@ var states = {
 		visited: "2021",
 		description: "Helena National Forest, while moving to Seattle"
 	},
+	IL: {
+		name: "Illinois",
+		visited: "2023-Fall",
+		description: "Chicago!"
+	},
 	MD: {
 		name: "Maryland",
 		visited: "2018-06-30",
 		description: "Visited Shruti Modak in 2018!"
+	},
+	MI: {
+		name: "Michigan",
+		visited: "2023-Fall",
+		description: "Traverse City"
 	},
 	MT: {
 		name: "Montana",
@@ -88,6 +98,11 @@ var states = {
 		name: "Washington",
 		lived: "2022",
 		description: "PNW IS THE BEST"
+	},
+	WI: {
+		name: "Wisconsin",
+		visited: "2023 - Fall",
+		description: "OshKosh!"
 	},
 	WV: {
 		name: "West Virginia",
