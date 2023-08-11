@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+
+        function replaceLetters(name, dictionary) {
+            // Create a new string to store the result.
+            let newName = "";
+
+            // Iterate over the letters in the name.
+            for (let letter of name) {
+                // If the letter is in the dictionary, replace it with the corresponding letter from the dictionary.
+                if (dictionary.hasOwnProperty(letter)) {
+                    newName += dictionary[letter];
+                } else {
+                    // Otherwise, just add the letter to the new name.
+                    newName += letter;
+                }
+            }
+
+            // Return the new name.
+            return newName;
+        }
+
+
+
+        function changeName() {
+            const singleLetterDictionary = {
+                "b": "bee",
+                "c": "k",
+                "d": "de",
+                "e": "eä"
+                "f": "ef",
+                "g": "g",
+                "h": "",
+                "i": "öi",
+                "o": "õu",
+                "j": "z",
+                "k": "k",
+                "l": "ll",
+                "m": "m",
+                "n": "n",
+                "p": "",
+                "q": "k",
+                "r": "r",
+                "s": "si",
+                "t": "",
+                "v": "v",
+                "w": "v",
+                "x": "z",
+                "y": "i",
+                "z": "z"
+            };
+            name = document.getElementById("name").value
+            const newName = replaceLetters(name, dictionary);
+            console.log(newName);
+            document.getElementById("newName").innerHTML = newName;
+        }
+    </script>
+    <title>Boujee.Name</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #4beb93;
+        }
+
+        h1 {
+            font-size: 2em;
+            text-align: center;
+        }
+
+        input {
+            width: 200px;
+            border: 1px solid #000000;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        button {
+            background-color: #b00e0e;
+            color: #ffffff;
+            border: 1px solid #ffffff;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="text" id="name" placeholder="Basic Text">
+    <p>
+    <button onclick="changeName()">💎Bou✈Jee💅🏽</button>
+    <p id="newName"></p>
+</body>
+
+</html>
