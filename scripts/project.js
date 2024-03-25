@@ -1,7 +1,7 @@
 const projectList = [   
     {
         title: "Google (Fitbit)",
-        date: "Feb 2022 - Preset,
+        date: "Feb 2022 - Preset",
         position: "Research Scientist",
         description: "Consumner Health Research - Sensing Systems",
         link: "https://developers.google.com/community/accelerators/mentors/profile/profile-abhinuv-pitale"
