@@ -3,7 +3,7 @@ const projectList = [
         title: "Google (Fitbit)",
         date: "Feb 2022 - Preset",
         position: "Research Scientist",
-        description: "Consumer Health Research - Sensing Systems",
+        description: "Health sensing research, focusing on optical signal processing and algorithms for heart rate and PPG signal sesning.",
         link: "https://developers.google.com/community/accelerators/mentors/profile/profile-abhinuv-pitale",
         tags: "embedded, research, sensing",
         first: 1
