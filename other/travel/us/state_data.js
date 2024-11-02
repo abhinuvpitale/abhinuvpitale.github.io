@@ -19,6 +19,16 @@ var states = {
 		lived: "2018-05-15",
 		description: "Internship at DeepSig, Summer 2018"
 	},
+	FL: {
+		name: "Florida",
+		visited: "2023",
+		description: "Florida + PR in 2023"
+	},
+	HI: {
+		name: "Hawaii",
+		visited: "2024",
+		description: "Oahu & Maui 2024"
+	},
 	ID: {
 		name: "Idaho",
 		visited: "2021",
@@ -28,6 +38,16 @@ var states = {
 		name: "Illinois",
 		visited: "2023-Fall",
 		description: "Chicago!"
+	},
+	MA: {
+		name: "Massachusetts",
+		visited: "2023",
+		description: "Visiting Amit in Boston + Maine Trip"
+	},
+	ME: {
+		name: "Maine",
+		visited: "2023",
+		description: "Visiting Amit in Boston + Maine Trip"
 	},
 	MD: {
 		name: "Maryland",
