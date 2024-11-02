@@ -67,12 +67,12 @@ var states = {
 	PA: {
 		name: "Pennsylvania",
 		visited: "2018-07-15",
- 		description: "Visited Sramana @ Philly in 2018 \n Family trip 2019!"
+		description: "Visited Sramana @ Philly in 2018 \n Family trip 2019!"
 	},
 	OR: {
 		name: "Oregon",
 		visited: "2020-07-01",
-			description: "Crater Lake while driving to Seattle"
+		description: "Crater Lake while driving to Seattle"
 	},
 	UT: {
 		name: "Utah",
